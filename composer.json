@@ -1,0 +1,24 @@
+{
+    "name": "mezzle/mockery-testcase",
+    "description": "Test Case for Mockery",
+    "minimum-stability": "dev",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Martin Meredith",
+            "email": "martinmeredith@protecinnovations.co.uk"
+        }
+    ],
+    "require": {
+        "mockery/mockery": "dev-master",
+        "phpunit/phpunit": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mezzle\\TestCase\\": [
+                "TestCase",
+                "TestCase/tests"
+            ]
+        }
+    }
+}

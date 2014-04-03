@@ -1,0 +1,10 @@
+<phpunit bootstrap="test-bootstrap.php"
+         cacheTokens="true"
+         colors="true"
+         processIsolation="false">
+    <testsuites>
+        <testsuite name="Test Suite">
+            <directory>TestCase/tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
