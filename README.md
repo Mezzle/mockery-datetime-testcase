@@ -1,0 +1,1 @@
+This is a test case for a potential bug with Mockery
